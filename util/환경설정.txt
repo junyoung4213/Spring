@@ -1,0 +1,13 @@
+1. eclipse.ini 에 다음을 추가한다
+spring에서 사용하는 라이브러리중에
+jre에서 잘 동작하지 않는 경우가 있어서
+안정적인 jdk로 설정 변경
+
+-vm
+C:\Program Files\Java\jdk1.8.0_231\bin\javaw.exe
+
+2. tomcat 8.5
+  [Eclipse]
+  Window > Preferences > Server > Runtime Environment
+
+3. h2database

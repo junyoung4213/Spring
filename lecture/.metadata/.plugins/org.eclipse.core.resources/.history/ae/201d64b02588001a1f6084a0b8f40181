@@ -1,0 +1,42 @@
+package com.springstudy.biz.board.impl;
+
+import java.util.List;
+
+import com.springstudy.biz.board.BoardDAO;
+import com.springstudy.biz.board.BoardVO;
+
+
+public class BoardDAOImpl implements BoardDAO{
+
+	@Override
+	public void insertBoard(BoardVO vo) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void updateBoard(BoardVO vo) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void deleteBoard(BoardVO vo) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public BoardVO getBoard(BoardVO vo) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<BoardVO> getBoardList(BoardVO vo) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	
+}

@@ -1,0 +1,101 @@
+<bean id="tv" class="polymorphism.SamsungTV">
+	<constructor-arg ref="apple"></constructor-arg>
+	<constructor-arg value="2700000"></constructor-arg>
+</bean>
+
+constructor-arg ref="값" value="값">
+
+// 생성자에 파라미터 값을 넘기는데 ref는 힙영역의 데이터, value는 스택영역 데이터를 가리킴.
+
+p namespace에서 p를 추가한 후, 
+
+<bean id="tv" class="polymorphism.SamsungTV" p:speaker-ref="sony" p:price="99999"></bean>
+
+이런식으로 파라미터값을 주입해줄수도 있다
+
+<!-- List<String> 객체에 데이터 주입 -->
+	<bean id="collectionList" class="collectionbean.CollectionList">
+		<property name="addressList">
+			<list>
+				<value>서울 신촌</value>
+				<value>서울 서초</value>
+				<value>서울 종로</value>
+				<value>서울 강남</value>
+			</list>
+		</property>	
+	</bean>
+
+<!-- Set<String> 객체에 데이터 주입 -->
+	<bean id="collectionSet" class="collectionbean.CollectionSet">
+		<property name="addressSet">
+			<set value-type="java.lang.String">
+				<value>서울 신촌 비트캠프</value>
+				<value>서울 서초 비트캠프</value>
+				<value>서울 종로 비트캠프</value>
+				<value>서울 강남 비트캠프</value>
+			</set>
+		</property>	
+	
+	</bean>
+
+*List는 중복데이터 허용 / Set은 중복데이터 허용X *
+
+<!-- Map<String, String> 객체에 데이터 주입 -->
+	<bean id="collectionMap" class="collectionbean.CollectionMap">
+		<property name="addressMap">
+			<map>
+				<entry>
+					<key>
+						<value>홍길동</value>
+					</key>
+					<value>서울 신촌 비트캠프</value>
+				</entry>
+			</map>
+		</property>
+	</bean>
+
+<!-- Properties 객체에 데이터 주입 -->
+	<bean id="collectionProperties"
+		class="collectionbean.CollectionProperties">
+		<property name="addressProperties">
+			<props>
+				<prop key="홍길동">서울 신촌 비트캠프</prop>
+				<prop key="임꺽정">서울 서초 비트캠프</prop>
+				<prop key="장길산">서울 종로 비트캠프</prop>
+				<prop key="일지매">서울 강남 비트캠프</prop>
+			</props>
+		</property>
+	</bean>
+
+*Properties 의 keySet() 메서드 반환형식은 Object *
+
+<!-- base-package에 설정된 패키지 하부를 모두 scan해서 
+@Component나 @Component 파생 Annotation이 설정된 클래스를 모두 bean으로 생성한다 -->
+<context:component-scan base-package="패키지명"></context:component-scan>
+
+*xml파일에서 Namespaces 탭을 이용해서 context를 추가시켜주고 사용해야한다*
+
+[의존성 주입(DI)와 관련된 애노테이션]
+1. Spring Framework  제공
+	@Autowired 
+		; 변수 위에 설정하면 해당 타입 객체 찾아서 자동 할당
+	@Qualifier
+		; 특정 객체의 이름을 찾아서 할당
+
+2. Java에서 제공
+	@Inject
+		; @Autowired와 동일한 기능을 제공
+	@Resource	
+		; @Autowired와 @Qualifier의 기능을 결합
+
+[VO클래스 생성]
+toString 메서드를 오버라이딩해서 println으로 객체 값 체크할때 자주 씀
+
+pom.xml - dependencies - Add 로 들어가서
+
+DB 드라이버를 추가해주면된다. 이름만 넣어줘도됨.
+
+<h2 DB 등록>
+Group Id : com.h2database
+Artifact Id: h2
+Version : 1.4.191

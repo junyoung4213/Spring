@@ -1,0 +1,14 @@
+Class.forName() 으로 클래스를 가져온 후
+
+newInstance()로 객체 생성.
+
+환경설정파일은 src/main/resources에 보통 들어감.
+
+test폴더는 test목적으로.
+
+applicationContext.xml에서 bean의 속성으로 lazy-init="true"를 주면 요청이 없을 시 객체 생성안함.
+
+scope="singleton" -> 요청시 객체를 하나 생성하고 그것을 계속 씀.
+scope="prototype" -> 요청시 객체를 계속 새로 생성함.
+
+Spring Bean Configuration을 resources 폴더에 생성한다(xml파일)

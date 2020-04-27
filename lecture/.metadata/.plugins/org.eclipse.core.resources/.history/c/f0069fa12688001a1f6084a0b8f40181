@@ -1,0 +1,74 @@
+package com.springstudy.biz.board.impl;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.util.List;
+
+import org.springframework.stereotype.Repository;
+
+import com.mysql.cj.protocol.Resultset;
+import com.springstudy.biz.board.BoardDAO;
+import com.springstudy.biz.board.BoardVO;
+import com.springstudy.biz.common.JDBCUtil;
+
+//@Component("boardDAO")
+@Repository("boardDAO")
+public class BoardDAOImpl implements BoardDAO {
+
+	// JDBC 관련 변수
+	private Connection conn = null;
+	private PreparedStatement pstmt = null;
+	private Resultset rs = null;
+
+	// SQL 명령어들
+	private final String BOARD_INSERT = "INSERT INTO BOARD(seq,title,writer,content) VALUES((SELECT NVL(MAX(seq),0)+1 FROM board), ?,?,?)";
+
+	private final String BOARD_UPDATE = "UPDATE board SET title = ?, content=?, WHERE seq=?";
+	private final String BOARD_DELETE = "DELETE board WHERE seq=?";
+	private final String BOARD_GET = "SELECT * FROM board WHERE seq=?";
+	private final String BOARD_LIST = "SELECT * FROM board ORDER BY seq DESC";
+
+	// 글 등록
+	@Override
+	public void insertBoard(BoardVO vo) {
+		System.out.println("===> JDBC로 insertBoard() 기능 처리");
+		try {
+			conn = JDBCUtil.getConnection();
+			pstmt = conn.prepareStatement(BOARD_INSERT);
+			pstmt.setString(1, vo.getTitle());
+			pstmt.setString(2, vo.getWriter());
+			pstmt.setString(3, vo.getContent());
+			pstmt.executeUpdate();
+
+		} catch (Exception e) {
+			e.printStackTrace();
+		} finally {
+			JDBCUtil.close(pstmt, conn);
+		}
+	}
+
+	@Override
+	public void updateBoard(BoardVO vo) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void deleteBoard(BoardVO vo) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public BoardVO getBoard(BoardVO vo) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<BoardVO> getBoardList(BoardVO vo) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

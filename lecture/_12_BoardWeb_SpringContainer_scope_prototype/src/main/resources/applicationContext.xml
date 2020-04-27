@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<!-- 등록만 해도 객체 생성 -->
+	<!-- 단, lazy-init이 true이면 요청시 생성 -->
+	<!-- scope의 값이 prototype이면 요청시 객체 계속 새로 생성 -->
+	<bean id="tv" class="polymorphism.SamsungTV" init-method="initMethod" destroy-method="destroyMethod" lazy-init="true" scope="prototype"/>
+	
+</beans>
