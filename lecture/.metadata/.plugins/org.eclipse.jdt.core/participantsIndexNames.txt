@@ -41,6 +41,8 @@ C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.cor
 \_17_BoardWeb_DI_04_Setter\src\main\java
 C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\783058839.index
 \_47_BoardWeb_Business_Annotation_AOP15\src\main\java
+C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4051382392.index
+\_52_BoardWeb_Business_Annotation_External_Pointcut_AOP20\src\main\java
 C:\Lecture\SpringFramework\lecture\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2049531780.index
 \_02_BoardWeb_Coupling\src\main\java
 C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3640364034.index
