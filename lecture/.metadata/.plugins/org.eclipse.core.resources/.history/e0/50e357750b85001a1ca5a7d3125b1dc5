@@ -1,7 +1,0 @@
-package polymorphism;
-
-public class TVUserMain {
-	public static void main(String[] args) {
-		
-	}
-}

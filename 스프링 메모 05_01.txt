@@ -37,3 +37,19 @@ commons-dbcp
 org.springframework
 spring-jdbc
 ${org.springframework-version}
+
+<DataSource 세팅>
+applicationContext.xml 오픈
+
+<bean id="dataSource"
+	class="org.apache.commons.dbcp.BasicDataSource" destroy-method="close">
+	<property name="driverClassName" value="org.h2.Driver" />
+	<property name="url" value="jdbc:h2:tcp://localhost/~/test" />
+	<property name="username" value="sa" />
+	<property name="password" value="" />
+</bean>
+
+삽입.
+
+<_57_Spring_Transaction 세팅>
+applicationContext.xml -  Namespaces에서 tx 추가.
