@@ -65,6 +65,8 @@ C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.cor
 \_55_BoardWeb_JdbcTemplate02_JdbcDaoSupport\src\main\java
 C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1905184018.index
 \_07_BoardWeb_SpringContainer\src\main\java
+C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2107306089.index
+\_56_BoardWeb_JdbcTemplate03_JdbcTemplate_bean\src\main\java
 C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2719144202.index
 \_03_BoardWeb_CouplingWeak\src\main\java
 C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3811241304.index
