@@ -7,6 +7,8 @@ C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.cor
 \_25_BoardWeb_Annotation_DI_Autowired\src\main\java
 C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\844625157.index
 \_49_BoardWeb_Business_Annotation_AfterThrowing_AOP17\src\main\java
+C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3565805503.index
+\_51_BoardWeb_Business_Annotation_Around_AOP19\src\main\java
 C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1885836456.index
 \_08_BoardWeb_SpringContainer_initMethod\src\main\java
 C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1591940005.index
