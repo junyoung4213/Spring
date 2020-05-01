@@ -19,6 +19,11 @@ public class BoardServiceMain {
 		vo.setTitle("임시 제목");
 		vo.setWriter("홍길동");
 		vo.setContent("임시 내용..............");
+		
+		// 트랜잭션은 메서드 단위로 이루어지므로
+		// 이 메서드내에서 1번째는 성공하지만
+		// 2번째가 실패하므로 모두 rollback하는 것을
+		// 확인할 수 있다.
 		boardService.insertBoard(vo);
 
 		// 4. 글 목록 검색 테스트
