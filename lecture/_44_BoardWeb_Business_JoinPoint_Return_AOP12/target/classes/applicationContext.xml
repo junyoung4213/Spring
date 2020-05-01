@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:aop="http://www.springframework.org/schema/aop"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.3.xsd
+		http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-4.3.xsd">
+
+	<context:component-scan
+		base-package="com.springstudy.biz"></context:component-scan>
+
+	<bean id="afterReturning" class="com.springstudy.biz.common.log.AfterReturningAdvice"/>
+	<aop:config>
+		<aop:pointcut expression="execution(* com.springstudy.biz..*ServiceImpl.*(..))" id="allPointcut"/>
+		
+		<!-- 어드바이스 매개변수중에 returnObj에 리턴값을 저장하겠다. 이 설정을 추가한다 -->
+		<aop:aspect ref="afterReturning">
+			<aop:after-returning method="afterLog" returning="returnObj" pointcut-ref="allPointcut"/>
+		</aop:aspect>
+	</aop:config>
+
+
+</beans>
