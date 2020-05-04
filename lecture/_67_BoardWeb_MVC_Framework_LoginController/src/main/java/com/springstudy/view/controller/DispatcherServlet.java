@@ -12,9 +12,6 @@ import javax.servlet.http.HttpSession;
 import com.springstudy.biz.board.BoardDAO;
 import com.springstudy.biz.board.BoardVO;
 import com.springstudy.biz.board.impl.BoardDAOImpl;
-import com.springstudy.biz.user.UserDAO;
-import com.springstudy.biz.user.UserVO;
-import com.springstudy.biz.user.impl.UserDAOImpl;
 
 //@WebServlet(name = "action", urlPatterns = { "*.do" })
 public class DispatcherServlet extends HttpServlet {
@@ -47,6 +44,21 @@ public class DispatcherServlet extends HttpServlet {
 		String path = uri.substring(uri.lastIndexOf("/"));
 		System.out.println(path);
 
+		// 2. 클라이언트 요청 path에 따라 분기한다
+		if (path.equals("/logout.do")) {
+			logout(request, response);
+		} else if (path.equals("/insertBoard.do")) {
+			insertBoard(request, response);
+		} else if (path.equals("/updateBoard.do")) {
+			updateBoard(request, response);
+		} else if (path.equals("/deleteBoard.do")) {
+			deleteBoard(request, response);
+		} else if (path.equals("/getBoard.do")) {
+			getBoard(request, response);
+		} else if (path.equals("/getBoardList.do")) {
+			getBoardList(request, response);
+		}else {
+
 		// 2. handlerMapping에서 path에 해당하는 Controller 객체를 검색한다
 		Controller ctrl = handlerMapping.getController(path);
 
@@ -55,15 +67,15 @@ public class DispatcherServlet extends HttpServlet {
 
 		// 4. ViewResolver를 통해 viewName에 해당하는 화면을 검색
 		String view = null;
-		if (!viewName.contains(".do")) {	 // jsp 파일인 경우
+		if (!viewName.contains(".do")) { // jsp 파일인 경우
 			view = viewResolver.getView(viewName);
-		} else { 							 // .do 일 경우
+		} else { // .do 일 경우
 			view = viewName;
 		}
 
 		// 5. 화면 이동 처리
 		response.sendRedirect(view);
-
+		}
 	}
 
 	private void logout(HttpServletRequest request, HttpServletResponse response) throws IOException {
