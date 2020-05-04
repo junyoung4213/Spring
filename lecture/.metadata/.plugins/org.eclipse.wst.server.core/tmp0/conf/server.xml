@@ -153,7 +153,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\_63_BoardWeb_Model_Two_Method_Servlet_insertBoard" path="/BoardWeb" reloadable="true" source="org.eclipse.jst.jee.server:_63_BoardWeb_Model_Two_Method_Servlet_insertBoard"/></Host>
+      <Context docBase="C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\_64_BoardWeb_Model_Two_Method_Servlet_updateBoard" path="/BoardWeb" reloadable="true" source="org.eclipse.jst.jee.server:_64_BoardWeb_Model_Two_Method_Servlet_updateBoard"/></Host>
     </Engine>
   </Service>
 </Server>

@@ -101,6 +101,8 @@ C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.cor
 \_23_BoardWeb_Annotation_Component\src\main\java
 C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1317568810.index
 \_61_BoardWeb_Model_Two_Method_Servlet\src\main\java
+C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\966856476.index
+\_64_BoardWeb_Model_Two_Method_Servlet_updateBoard\src\main\java
 C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2107306089.index
 \_56_BoardWeb_JdbcTemplate03_JdbcTemplate_bean\src\main\java
 C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\266318145.index
@@ -147,6 +149,8 @@ C:\Lecture\SpringFramework\lecture\.metadata\.plugins\org.eclipse.jst.jsp.core\j
 \_02_BoardWeb_Coupling\src\main\java
 C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1885836456.index
 \_08_BoardWeb_SpringContainer_initMethod\src\main\java
+C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\719030716.index
+\_64_BoardWeb_Model_Two_Method_Servlet_updateBoard\src\main\java
 C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3847090844.index
 \_04_BoardWeb_Coupling_Polymorphism\src\main\java
 C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2804939802.index
