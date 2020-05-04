@@ -17,6 +17,8 @@ C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.cor
 \_24_BoardWeb_Annotation_Component_id\src\main\java
 C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\246959320.index
 \_47_BoardWeb_Business_Annotation_Before_AOP15\src\main\java
+C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\781484026.index
+\_66_BoardWeb_Model_Two_Method_Servlet_logout\src\main\java
 C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3794371502.index
 \_59_BoardWeb_Model_Two\src\main\java
 C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\736634952.index
@@ -49,6 +51,8 @@ C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.cor
 \_14_BoardWeb_DI_01\src\main\java
 C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3565805503.index
 \_51_BoardWeb_Business_Annotation_Around_AOP19\src\main\java
+C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\795129917.index
+\_66_BoardWeb_Model_Two_Method_Servlet_logout\src\main\java
 C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2619010808.index
 \_58_BoardWeb_Model_One\src\main\java
 C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1591940005.index
