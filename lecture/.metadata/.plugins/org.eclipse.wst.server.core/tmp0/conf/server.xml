@@ -153,7 +153,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\_71_BoardWeb_MVC_Framework_UpdateBoardController" path="/BoardWeb" reloadable="true" source="org.eclipse.jst.jee.server:_71_BoardWeb_MVC_Framework_UpdateBoardController"/></Host>
+      <Context docBase="C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\_72_BoardWeb_MVC_Framework_DeleteBoardController" path="/BoardWeb" reloadable="true" source="org.eclipse.jst.jee.server:_72_BoardWeb_MVC_Framework_DeleteBoardController"/></Host>
     </Engine>
   </Service>
 </Server>
