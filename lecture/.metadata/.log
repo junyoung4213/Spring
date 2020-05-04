@@ -5461,3 +5461,8 @@ org.eclipse.core.internal.resources.ResourceException(/_70_BoardWeb_MVC_Framewor
 	at org.eclipse.wst.validation.internal.ValBuilderJob.runInWorkspace(ValBuilderJob.java:126)
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2020-05-04 15:02:19.019
+!MESSAGE Could not publish server configuration for Tomcat v8.5 Server at localhost.
+!SUBENTRY 1 org.eclipse.jst.server.tomcat.core 4 0 2020-05-04 15:02:19.019
+!MESSAGE Multiple Contexts have a path of "/BoardWeb".
