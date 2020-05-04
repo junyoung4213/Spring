@@ -1,5 +1,0 @@
-package com.springstudy.biz.board.impl;
-
-public interface BoardServiceImpl {
-
-}
