@@ -143,10 +143,14 @@ C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.cor
 \_54_BoardWeb_JdbcTemplate01_Properties\src\main\java
 C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\338447989.index
 \_11_BoardWeb_SpringContainer_scope\src\main\java
+C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3972980246.index
+\_73_BoardWeb_MVC_Framework_LogoutController\src\main\java
 C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1056842751.index
 \_27_BoardWeb_Annotation_DI_Resource\src\main\java
 C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4004978429.index
 \_53_BoardWeb_JdbcTemplate\src\main\java
+C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\282591335.index
+\_73_BoardWeb_MVC_Framework_LogoutController\src\main\java
 C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1546420169.index
 \_26_BoardWeb_Annotation_DI_Qualifier\src\main\java
 C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3776112925.index
