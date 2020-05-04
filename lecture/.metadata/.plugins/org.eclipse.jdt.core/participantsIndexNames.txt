@@ -9,6 +9,8 @@ C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.cor
 \_25_BoardWeb_Annotation_DI_Autowired\src\main\java
 C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3565805503.index
 \_51_BoardWeb_Business_Annotation_Around_AOP19\src\main\java
+C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\307284779.index
+\_62_BoardWeb_Model_Two_Method_Servlet_getBoard\src\main\java
 C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1885836456.index
 \_08_BoardWeb_SpringContainer_initMethod\src\main\java
 C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1591940005.index
@@ -83,12 +85,18 @@ C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.cor
 \_58_BoardWeb_Model_One\src\main\java
 C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\266318145.index
 \_32_BoardWeb_Business_Understand_AOP\src\main\java
+C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1124799242.index
+\_62_BoardWeb_Model_Two_Method_Servlet_getBoard\src\main\java
+C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\9567122.index
+\_61_BoardWeb_Model_Two_Method_Servlet_login_getBoardList\src\main\java
 C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1837456232.index
 \_23_BoardWeb_Annotation_Component\src\main\java
 C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3525755945.index
 \_53_BoardWeb_JdbcTemplate00_jar_download\src\main\java
 C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2005069491.index
 \_24_BoardWeb_Annotation_Component_id\src\main\java
+C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\5579449.index
+\_61_BoardWeb_Model_Two_Method_Servlet_login_getBoardList\src\main\java
 C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3296776553.index
 \_39_BoardWeb_Business_AfterReturningAdvice_AOP07\src\main\java
 C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\338447989.index
