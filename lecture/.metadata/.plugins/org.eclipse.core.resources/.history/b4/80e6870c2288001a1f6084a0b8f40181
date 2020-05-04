@@ -1,5 +1,0 @@
-package com.springstudy.biz.common;
-
-public class JDBCUtil {
-
-}

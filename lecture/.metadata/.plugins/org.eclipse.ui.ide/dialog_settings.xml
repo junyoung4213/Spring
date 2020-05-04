@@ -8,4 +8,19 @@
 		<list key="ENABLED_TRANSFERS">
 		</list>
 	</section>
+	<section name="SmartImportWizard">
+		<item key="SmartImportRootWizardPage.STORE_HIDE_ALREADY_OPEN" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_CLOSE_IMPORTED" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
+		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
+		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="C:\Users\chris\Desktop\_80_BoardWeb_Spring_MVC_InsertBoardController"/>
+			<item value="C:\Users\chris\Desktop\_79_BoardWeb_Spring_MVC_GetBoardController"/>
+			<item value="C:\Users\chris\Desktop\_78_BoardWeb_Spring_MVC_GetBoardListController"/>
+			<item value="C:\Users\chris\Desktop\_77_BoardWeb_Spring_MVC_LoginController"/>
+			<item value="C:\Users\chris\Desktop\_76_BoardWeb_Spring_MVC_DispatcherServlet_config"/>
+			<item value="C:\Users\chris\Desktop\_75_BoardWeb_Spring_MVC_DispatcherServlet"/>
+			<item value="C:\Users\chris\Desktop\_68_BoardWeb_MVC_Framework_GetBoardListController"/>
+		</list>
+	</section>
 </section>

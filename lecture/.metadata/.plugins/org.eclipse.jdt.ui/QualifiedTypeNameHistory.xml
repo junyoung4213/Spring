@@ -51,4 +51,8 @@
 <fullyQualifiedTypeName name="org.springframework.jdbc.core.RowMapper"/>
 <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
 <fullyQualifiedTypeName name="com.springstudy.biz.board.impl.BoardRowMapper"/>
+<fullyQualifiedTypeName name="com.springstudy.view.user.GetBoardController"/>
+<fullyQualifiedTypeName name="com.springstudy.view.controller.Controller"/>
+<fullyQualifiedTypeName name="com.springstudy.view.user.UpdateBoardController"/>
+<fullyQualifiedTypeName name="org.springframework.web.servlet.ModelAndView"/>
 </qualifiedTypeNameHistroy>

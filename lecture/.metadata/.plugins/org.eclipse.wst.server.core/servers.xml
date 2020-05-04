@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <servers>
-  <server auto-publish-setting="2" auto-publish-time="1" configuration-id="/Servers/Tomcat v8.5 Server at localhost-config" deployDir="wtpwebapps" hostname="localhost" id="Tomcat v8.5 Server at localhost" name="Tomcat v8.5 Server at localhost" runtime-id="Apache Tomcat v8.5" server-type="org.eclipse.jst.server.tomcat.85" server-type-id="org.eclipse.jst.server.tomcat.85" start-timeout="10000" stop-timeout="10000" testEnvironment="true" timestamp="39">
-    <list key="modules" value0="_74_BoardWeb_MVC_Framework_EL_JSTL::org.eclipse.jst.jee.server:_74_BoardWeb_MVC_Framework_EL_JSTL::jst.web::3.1"/>
+  <server auto-publish-setting="2" auto-publish-time="1" configuration-id="/Servers/Tomcat v8.5 Server at localhost-config" deployDir="wtpwebapps" hostname="localhost" id="Tomcat v8.5 Server at localhost" name="Tomcat v8.5 Server at localhost" runtime-id="Apache Tomcat v8.5" server-type="org.eclipse.jst.server.tomcat.85" server-type-id="org.eclipse.jst.server.tomcat.85" start-timeout="10000" stop-timeout="10000" testEnvironment="false" timestamp="63">
+    <list key="modules" value0="_80_BoardWeb_Spring_MVC_InsertBoardController::org.eclipse.jst.jee.server:_80_BoardWeb_Spring_MVC_InsertBoardController::jst.web::3.1"/>
   </server>
 </servers>

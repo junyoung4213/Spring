@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<!-- HandlerMapping 등록 -->
+	<bean class="org.springframework.web.servlet.handler.SimpleUrlHandlerMapping">
+		<property name="mappings">
+			<props>
+				<prop key="/login.do">login</prop>
+				<prop key="/getBoardList.do">getBoardList</prop>
+				<prop key="/getBoard.do">getBoard</prop>
+				<prop key="/insertBoard.do">insertBoard</prop>
+			</props>
+		</property>
+	</bean>	
+	
+	<!-- Controller 등록 -->
+	<bean id="login" class="com.springstudy.view.user.LoginController"/>
+	<bean id="getBoardList" class="com.springstudy.view.user.GetBoardListController"/>
+	<bean id="getBoard" class="com.springstudy.view.user.GetBoardController"/>
+	<bean id="insertBoard" class="com.springstudy.view.user.InsertBoardController"/>
+</beans>
+
+
+
+
+
+
+

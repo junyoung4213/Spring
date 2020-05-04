@@ -1,5 +1,0 @@
-package com.springstudy.biz.common.log;
-
-public class Log4jAdvice {
-
-}
