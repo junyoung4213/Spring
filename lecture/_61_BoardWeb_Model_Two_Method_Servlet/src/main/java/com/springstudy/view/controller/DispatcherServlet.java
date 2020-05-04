@@ -1,11 +1,20 @@
 package com.springstudy.view.controller;
 
 import java.io.IOException;
+import java.util.List;
+
 import javax.servlet.ServletException;
-import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
+
+import com.springstudy.biz.board.BoardDAO;
+import com.springstudy.biz.board.BoardVO;
+import com.springstudy.biz.board.impl.BoardDAOImpl;
+import com.springstudy.biz.user.UserDAO;
+import com.springstudy.biz.user.UserVO;
+import com.springstudy.biz.user.impl.UserDAOImpl;
 
 //@WebServlet(name = "action", urlPatterns = { "*.do" })
 public class DispatcherServlet extends HttpServlet {
@@ -45,27 +54,66 @@ public class DispatcherServlet extends HttpServlet {
 			getBoardList(request, response);
 		}
 	}
-	
+
+	// login.jsp가 처리해달라고 요청하는 업무 담당
 	private void login(HttpServletRequest request, HttpServletResponse response) throws IOException {
 		System.out.println("로그인 처리");
+
+		// 1. 사용자 입력 정보 추출
+		String id = request.getParameter("id");
+		String password = request.getParameter("password");
+
+		// 2. DB에 접속해서 사용자가 있는지 확인
+		UserVO vo = new UserVO();
+		vo.setId(id);
+		vo.setPassword(password);
+
+		UserDAO userDAO = new UserDAOImpl();
+		UserVO user = userDAO.getUser(vo);
+
+		// 사용자가 DB에 있을 때
+		if (user != null) {
+			response.sendRedirect("getBoardList.do");
+		}
+		// 사용자가 DB에 없을 때
+		else {
+			response.sendRedirect("login.jsp");
+		}
+
 	}
+
 	private void logout(HttpServletRequest request, HttpServletResponse response) {
 		System.out.println("로그아웃 처리");
 	}
+
 	private void insertBoard(HttpServletRequest request, HttpServletResponse response) {
 		System.out.println("글 등록 처리");
 	}
+
 	private void updateBoard(HttpServletRequest request, HttpServletResponse response) {
 		System.out.println("글 수정 처리");
 	}
+
 	private void deleteBoard(HttpServletRequest request, HttpServletResponse response) {
 		System.out.println("글 삭제 처리");
 	}
+
 	private void getBoard(HttpServletRequest request, HttpServletResponse response) {
 		System.out.println("글 상세 조회 처리");
 	}
-	private void getBoardList(HttpServletRequest request, HttpServletResponse response) {
+
+	private void getBoardList(HttpServletRequest request, HttpServletResponse response) throws IOException {
 		System.out.println("글 목록 검색 처리");
+
+		// 1. 글 목록 정보들을 DB로부터 꺼낸다.
+		BoardVO vo = new BoardVO();
+		BoardDAO boardDAO = new BoardDAOImpl();
+		List<BoardVO> boardList = boardDAO.getBoardList(vo);
+
+		// 2. JSP가 읽을 수 있도록 공유한다.
+		HttpSession session = request.getSession();
+		session.setAttribute("boardList", boardList);
+		response.sendRedirect("getBoardList.jsp");
 	}
 
 }
