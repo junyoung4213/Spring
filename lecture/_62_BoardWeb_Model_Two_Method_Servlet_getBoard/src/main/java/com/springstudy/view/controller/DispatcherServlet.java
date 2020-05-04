@@ -98,8 +98,23 @@ public class DispatcherServlet extends HttpServlet {
 		System.out.println("글 삭제 처리");
 	}
 
-	private void getBoard(HttpServletRequest request, HttpServletResponse response) {
+	private void getBoard(HttpServletRequest request, HttpServletResponse response) throws IOException {
 		System.out.println("글 상세 조회 처리");
+		
+		// 1. 상세 정보 확인할 seq번호 추출
+		String seq = request.getParameter("seq");
+
+		// 2. DB에서 상세정보 꺼내기
+		BoardVO vo = new BoardVO();
+		vo.setSeq(Integer.parseInt(seq));
+		
+		BoardDAO boardDAO = new BoardDAOImpl();
+		BoardVO board = boardDAO.getBoard(vo);
+		
+		// 3. JSP가 읽을 수 있도록 session에 저장한다
+		HttpSession session = request.getSession();
+		session.setAttribute("board", board);
+		response.sendRedirect("getBoard.jsp");
 	}
 
 	private void getBoardList(HttpServletRequest request, HttpServletResponse response) throws IOException {
