@@ -1,5 +1,5 @@
 #Tomcat publish data
-#Wed May 06 10:16:38 KST 2020
-org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\chris\\.m2\\repository\\org\\springframework\\spring-web\\5.2.5.RELEASE\\spring-web-5.2.5.RELEASE.jar=C\:\\Users\\chris\\Desktop\\\uC2A4\uD504\uB9C1\\util\\apache-tomcat-8.5.54-windows-x64\\apache-tomcat-8.5.54\\wtpwebapps\\_84_BoardWeb_Spring_MVC_ViewResolver\\WEB-INF\\lib\\spring-web-5.2.5.RELEASE.jar
+#Wed May 06 10:50:08 KST 2020
+org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\chris\\.m2\\repository\\org\\springframework\\spring-web\\5.2.5.RELEASE\\spring-web-5.2.5.RELEASE.jar=C\:\\Users\\chris\\Desktop\\\uC2A4\uD504\uB9C1\\util\\apache-tomcat-8.5.54-windows-x64\\apache-tomcat-8.5.54\\wtpwebapps\\_85_BoardWeb_Spring_MVC_Annotation_InsertBoardController\\WEB-INF\\lib\\spring-web-5.2.5.RELEASE.jar
 org.eclipse.jst.jee.server\:_80_BoardWeb_Spring_MVC_InsertBoardController=C\:\\Users\\chris\\Desktop\\\uC2A4\uD504\uB9C1\\util\\apache-tomcat-8.5.54-windows-x64\\apache-tomcat-8.5.54\\wtpwebapps\\_80_BoardWeb_Spring_MVC_InsertBoardController
-org.eclipse.jst.jee.server\:_84_BoardWeb_Spring_MVC_ViewResolver=C\:\\Users\\chris\\Desktop\\\uC2A4\uD504\uB9C1\\util\\apache-tomcat-8.5.54-windows-x64\\apache-tomcat-8.5.54\\wtpwebapps\\_84_BoardWeb_Spring_MVC_ViewResolver
+org.eclipse.jst.jee.server\:_85_BoardWeb_Spring_MVC_Annotation_InsertBoardController=C\:\\Users\\chris\\Desktop\\\uC2A4\uD504\uB9C1\\util\\apache-tomcat-8.5.54-windows-x64\\apache-tomcat-8.5.54\\wtpwebapps\\_85_BoardWeb_Spring_MVC_Annotation_InsertBoardController

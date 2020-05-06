@@ -5969,3 +5969,11 @@ org.xml.sax.SAXParseException; lineNumber: 34; columnNumber: 7; The end-tag for 
 
 !ENTRY org.eclipse.wst.server.core 4 0 2020-05-06 10:05:51.733
 !MESSAGE Server Tomcat v8.5 Server at localhost failed to start.
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2020-05-06 10:49:45.534
+!MESSAGE Could not publish server configuration for Tomcat v8.5 Server at localhost.
+!SUBENTRY 1 org.eclipse.jst.server.tomcat.core 4 0 2020-05-06 10:49:45.534
+!MESSAGE Multiple Contexts have a path of "/BoardWeb".
+
+!ENTRY org.eclipse.wst.server.core 4 0 2020-05-06 10:49:55.704
+!MESSAGE Server Tomcat v8.5 Server at localhost failed to start.
