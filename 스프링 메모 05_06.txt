@@ -3,4 +3,21 @@ WEB-INF 폴더 내부에 있는 것은 클라이언트가 직접 접근할 수 �
 @ModelAttribute()를 사용해서 JSP에서 사용할 객체의 이름을 지정해 줄 수 있다.
 
 ex) (@ModelAttribute("user") UserVO vo) 이런식으로 파라미터를 넘기면
-jsp 파일에서 ${user}로 vo객체에 접근할 수 있음. 
+jsp 파일에서 ${user}로 vo객체에 접근할 수 있음.
+
+method = RequestMethod.GET or POST 로 GET방식의 요청, POST방식의 요청을 
+분리해서 대응할 수 있다. @RequestMapping의 두번째 인자로 입력해주면 된다. 
+
+Controller의 경우에는 중앙집권(한개의 컨트롤러에 다수 메서드)과 
+지방분권(기능별로 여러개의 컨트롤러 생성)방식이 있다.
+
+@RequestParam 어노테이션을 사용하면 jsp에서 request에 담아서
+보내주는 정보를 받아서 사용할 수 있다.
+
+@ModelAttribute의 기능
+	 * 1) Command객체를 view에 전달할 때 이름 변경시 사용
+	 * 2) view에서 사용할 데이터 객체를 만들어서 전달할 때 사용
+	 * 	 (@RequestMapping 어노테이션보다 먼저 호출된다. 
+	 * 	    자동으로 Model에 저장된다.
+	 * 	    스프링은 Model에 저장된 conditionMap을 꺼내서
+	 * 	  request에 저장해서 jsp에 전달한다)

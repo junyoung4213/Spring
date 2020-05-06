@@ -1,10 +1,4 @@
 INDEX VERSION 1.131+C:\Users\chris\Desktop\½ºÇÁ¸µ\lecture\.metadata\.plugins\org.eclipse.jdt.core
-329121524.index
-3653847238.index
-596452795.index
-1165194141.index
-4294406751.index
 4048748315.index
-3322749682.index
-314091456.index
-3873068369.index
+286801290.index
+862533702.index
