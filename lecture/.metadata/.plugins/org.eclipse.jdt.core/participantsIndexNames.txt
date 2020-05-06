@@ -69,6 +69,8 @@ C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.cor
 \_58_BoardWeb_Model_One\src\main\java
 C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3870296105.index
 \_86_BoardWeb_Spring_MVC_Annotation_InsertBoardController_Command\src\main\java
+C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3337118952.index
+\_99_01_BoardWeb_Spring_MVC_Annotation_SessionAttributes\src\main\java
 C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3776112925.index
 \_31_BoardWeb_Business_Component_Context_File\src\main\java
 C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1990804669.index
@@ -109,6 +111,8 @@ C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.cor
 \_58_BoardWeb_Model_One\src\main\java
 C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3840978756.index
 \_61_BoardWeb_Model_Two_Method_Servlet\src\main\java
+C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1556896971.index
+\_100_BoardWeb_Spring_MVC_Annotation_SessionAttributes\src\main\java
 C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3882216897.index
 \_97_BoardWeb_Spring_MVC_Annotation_Controller_Return_Type\src\main\java
 C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\711912489.index
@@ -251,6 +255,10 @@ C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.cor
 \_94_BoardWeb_Spring_MVC_Annotation_Login_Method\src\main\java
 C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1661677368.index
 \_09_BoardWeb_SpringContainer_destroyMethod\src\main\java
+C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3360688928.index
+\_100_BoardWeb_Spring_MVC_Annotation_SessionAttributes\src\main\java
+C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3140184629.index
+\a_100_BoardWeb_Spring_MVC_Annotation_SessionAttributes\src\main\java
 C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3515025299.index
 \_68_BoardWeb_MVC_Framework_GetBoardListController\src\main\java
 C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1590189155.index
@@ -315,8 +323,12 @@ C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.cor
 \_84_BoardWeb_Spring_MVC_ViewResolver\src\main\java
 C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\31299204.index
 \_78_BoardWeb_Spring_MVC_GetBoardListController\src\main\java
+C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\77603126.index
+\_99_01_BoardWeb_Spring_MVC_Annotation_SessionAttributes\src\main\java
 C:\Lecture\SpringFramework\lecture\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\700735964.index
 \_01_BoardWeb_Start\src\main\java
+C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4282936502.index
+\a_100_BoardWeb_Spring_MVC_Annotation_SessionAttributes\src\main\java
 C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\700735964.index
 \_01_BoardWeb_Start\src\main\java
 C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1268991578.index

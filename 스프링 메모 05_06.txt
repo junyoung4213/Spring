@@ -21,3 +21,9 @@ Controller의 경우에는 중앙집권(한개의 컨트롤러에 다수 메서�
 	 * 	    자동으로 Model에 저장된다.
 	 * 	    스프링은 Model에 저장된 conditionMap을 꺼내서
 	 * 	  request에 저장해서 jsp에 전달한다)
+
+매개변수로 전달된 model 객체에 값을 넣으면
+	 * 스프링은 이 메서드가 리턴된 후 model에서 값을 꺼내서
+	 * request에 저장한다.
+	 * ModelAndView를 사용하는 것과 동일하다.
+

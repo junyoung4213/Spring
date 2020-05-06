@@ -199,3 +199,9 @@
 0:0:0:0:0:0:0:1 - - [06/May/2020:15:18:12 +0900] "POST /BoardWeb/getBoardList.do HTTP/1.1" 200 8037
 0:0:0:0:0:0:0:1 - - [06/May/2020:15:18:17 +0900] "POST /BoardWeb/getBoardList.do HTTP/1.1" 200 8037
 0:0:0:0:0:0:0:1 - - [06/May/2020:15:18:20 +0900] "POST /BoardWeb/getBoardList.do HTTP/1.1" 200 8037
+127.0.0.1 - - [06/May/2020:15:43:43 +0900] "GET / HTTP/1.1" 200 11414
+0:0:0:0:0:0:0:1 - - [06/May/2020:15:43:44 +0900] "GET /BoardWeb/index.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [06/May/2020:15:43:46 +0900] "GET /BoardWeb/login.do HTTP/1.1" 200 676
+0:0:0:0:0:0:0:1 - - [06/May/2020:15:43:48 +0900] "POST /BoardWeb/login.do HTTP/1.1" 200 7940
+0:0:0:0:0:0:0:1 - - [06/May/2020:15:43:48 +0900] "GET /BoardWeb/getBoard.do?seq=101 HTTP/1.1" 200 1402
+0:0:0:0:0:0:0:1 - - [06/May/2020:15:43:56 +0900] "POST /BoardWeb/updateBoard.do HTTP/1.1" 200 7933
