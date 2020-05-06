@@ -94,3 +94,10 @@
 0:0:0:0:0:0:0:1 - - [06/May/2020:11:50:04 +0900] "GET /BoardWeb/login.jsp HTTP/1.1" 200 647
 0:0:0:0:0:0:0:1 - - [06/May/2020:11:50:08 +0900] "GET /BoardWeb/insertBoard.jsp HTTP/1.1" 200 1038
 0:0:0:0:0:0:0:1 - - [06/May/2020:11:50:15 +0900] "POST /BoardWeb/insertBoard.do HTTP/1.1" 200 8549
+127.0.0.1 - - [06/May/2020:11:55:09 +0900] "GET / HTTP/1.1" 200 11414
+0:0:0:0:0:0:0:1 - - [06/May/2020:11:55:09 +0900] "GET /BoardWeb/ HTTP/1.1" 404 763
+0:0:0:0:0:0:0:1 - - [06/May/2020:11:55:17 +0900] "GET /BoardWeb/boardList.do HTTP/1.1" 404 721
+0:0:0:0:0:0:0:1 - - [06/May/2020:11:55:20 +0900] "GET /BoardWeb/getBoardList.do HTTP/1.1" 200 8549
+0:0:0:0:0:0:0:1 - - [06/May/2020:11:55:22 +0900] "GET /BoardWeb/getBoard.do?seq=104 HTTP/1.1" 200 1388
+0:0:0:0:0:0:0:1 - - [06/May/2020:11:55:27 +0900] "GET /BoardWeb/getBoardList.do HTTP/1.1" 200 8549
+0:0:0:0:0:0:0:1 - - [06/May/2020:11:55:28 +0900] "GET /BoardWeb/getBoard.do?seq=105 HTTP/1.1" 200 1385
