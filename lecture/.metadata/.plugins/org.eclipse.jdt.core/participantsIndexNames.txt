@@ -67,8 +67,12 @@ C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.cor
 \_70_BoardWeb_MVC_Framework_InsertBoardController\src\main\java
 C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\256059656.index
 \_81_BoardWeb_Spring_MVC_UpdateBoardController\src\main\java
+C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1115055930.index
+\_82_BoardWeb_Spring_MVC_DeleteBoardController\src\main\java
 C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1268991578.index
 \_13_BoardWeb_DI\src\main\java
+C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3198859829.index
+\_82_BoardWeb_Spring_MVC_DeleteBoardController\src\main\java
 C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\573551307.index
 \_81_BoardWeb_Spring_MVC_UpdateBoardController\src\main\java
 C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1820599471.index
