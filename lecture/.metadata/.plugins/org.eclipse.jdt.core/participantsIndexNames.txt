@@ -23,6 +23,8 @@ C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.cor
 \_07_BoardWeb_SpringContainer\src\main\java
 C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1942427859.index
 \_86_BoardWeb_Spring_MVC_Annotation_InsertBoardController_Command\src\main\java
+C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1488611758.index
+\_95_BoardWeb_Spring_MVC_Annotation_Login_ModelAttribute\src\main\java
 C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4150986954.index
 \_76_BoardWeb_Spring_MVC_DispatcherServlet_config\src\main\java
 C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2426078905.index
@@ -203,6 +205,8 @@ C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.cor
 \_94_BoardWeb_Spring_MVC_Annotation_Login_Method\src\main\java
 C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3746725613.index
 \_34_BoardWeb_Business_Aspect_Divide_AOP02\src\main\java
+C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2715214798.index
+\_95_BoardWeb_Spring_MVC_Annotation_Login_ModelAttribute\src\main\java
 C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2409790765.index
 \_36_BoardWeb_Business_Understand_AOP04\src\main\java
 C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3678044831.index

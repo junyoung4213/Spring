@@ -1,0 +1,6 @@
+WEB-INF 폴더 내부에 있는 것은 클라이언트가 직접 접근할 수 없다.
+
+@ModelAttribute()를 사용해서 JSP에서 사용할 객체의 이름을 지정해 줄 수 있다.
+
+ex) (@ModelAttribute("user") UserVO vo) 이런식으로 파라미터를 넘기면
+jsp 파일에서 ${user}로 vo객체에 접근할 수 있음. 
