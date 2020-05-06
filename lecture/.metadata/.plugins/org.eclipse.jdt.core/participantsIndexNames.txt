@@ -45,6 +45,8 @@ C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.cor
 \_40_BoardWeb_Business_AfterThrowingAdvice_AOP08\src\main\java
 C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\951845166.index
 \_55_BoardWeb_JdbcTemplate02_JdbcDaoSupport\src\main\java
+C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1865511093.index
+\_98_BoardWeb_Spring_MVC_Annotation_RequestParam\src\main\java
 C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\266611098.index
 \_33_BoardWeb_Business_Understand_AOP01\src\main\java
 C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3230579140.index
@@ -187,6 +189,8 @@ C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.cor
 \_94_BoardWeb_Spring_MVC_Annotation_Login_Method\src\main\java
 C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3164860955.index
 \_74_BoardWeb_MVC_Framework_LogoutController2\src\main\java
+C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\672702149.index
+\_98_BoardWeb_Spring_MVC_Annotation_RequestParam\src\main\java
 C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1857089538.index
 \biz\src\main\java
 C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2638319913.index
