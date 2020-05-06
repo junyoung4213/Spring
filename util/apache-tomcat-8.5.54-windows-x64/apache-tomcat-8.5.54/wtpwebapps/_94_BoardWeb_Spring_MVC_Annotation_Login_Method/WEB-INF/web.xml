@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" xmlns="http://java.sun.com/xml/ns/javaee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee https://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+	
+	<filter>
+		<filter-name>characterEncoding</filter-name>
+		<filter-class>org.springframework.web.filter.CharacterEncodingFilter</filter-class>
+		<init-param>
+			<param-name>encoding</param-name>
+			<param-value>UTF-8</param-value>
+		</init-param>
+	</filter>
+	
+	<filter-mapping>
+		<filter-name>characterEncoding</filter-name>
+		<url-pattern>*.do</url-pattern>
+	</filter-mapping>
+
+	<!-- 우리가 만든 DispatcherServlet을 spring에서 제공하는
+	DispatcherServlet으로 교체한다 -->
+	<!-- DispatcherServlet은 내부에서 init()메서드를 호출한다
+		init()에서는 클라이언트 요청처리에 필요한
+		HandlerMapping, Controller, ViewResolver 객체들을
+		생성하기 위한 스프링 컨테이너를 구동한다
+	 -->
+	 <!-- 스프링 컨테이너는  action-servlet.xml을 로딩하여
+	 스프링 컨테이너를 동작시킨다-->
+	 <!-- 아래처럼 초기화 매개변수를 추가하면
+	 action-servlet.xml의 위치와 파일 이름을 바꿀 수 있다 -->
+	<servlet>
+		<servlet-name>action</servlet-name>
+		<servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+		<init-param>
+			<param-name>contextConfigLocation</param-name>
+			<param-value>/WEB-INF/config/presentation-layer.xml</param-value>
+		</init-param>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>action</servlet-name>
+		<url-pattern>*.do</url-pattern>
+	</servlet-mapping>
+</web-app>
+
+
+
+
+
+
