@@ -5946,3 +5946,26 @@ org.xml.sax.SAXParseException; lineNumber: 26; columnNumber: 3; The element type
 !MESSAGE Could not publish server configuration for Tomcat v8.5 Server at localhost.
 !SUBENTRY 1 org.eclipse.jst.server.tomcat.core 4 0 2020-05-06 09:50:17.523
 !MESSAGE Multiple Contexts have a path of "/BoardWeb".
+
+!ENTRY org.springframework.ide.eclipse.beans.core 1 0 2020-05-06 10:03:06.303
+!MESSAGE Error occured processing '/_84_BoardWeb_Spring_MVC_ViewResolver/src/main/webapp/WEB-INF/config/presentation-layer.xml'
+!STACK 0
+org.xml.sax.SAXParseException; lineNumber: 34; columnNumber: 7; The end-tag for element type "bean" must end with a '>' delimiter.
+	at org.apache.xerces.parsers.DOMParser.parse(Unknown Source)
+	at org.springframework.ide.eclipse.core.io.xml.XercesDocumentLoader.loadDocument(XercesDocumentLoader.java:48)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadDocument(XmlBeanDefinitionReader.java:429)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadBeanDefinitions(XmlBeanDefinitionReader.java:391)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:336)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansConfig$2.loadBeanDefinitions(BeansConfig.java:395)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:304)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansConfig$3.call(BeansConfig.java:454)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansConfig$3.call(BeansConfig.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+!ENTRY org.eclipse.wst.server.core 4 0 2020-05-06 10:05:51.733
+!MESSAGE Server Tomcat v8.5 Server at localhost failed to start.

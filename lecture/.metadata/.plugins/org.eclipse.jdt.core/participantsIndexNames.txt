@@ -59,6 +59,8 @@ C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.cor
 \_60_BoardWeb_Model_Two_Method\src\main\java
 C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1990804669.index
 \_83_BoardWeb_Spring_MVC_LogoutController\src\main\java
+C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1406438453.index
+\_84_BoardWeb_Spring_MVC_ViewResolver\src\main\java
 C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2222131868.index
 \_15_BoardWeb_DI_02_interface\src\main\java
 C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2306456905.index
@@ -117,6 +119,8 @@ C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.cor
 \_49_BoardWeb_Business_Annotation_AfterThrowing_AOP17\src\main\java
 C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3761981999.index
 \_83_BoardWeb_Spring_MVC_LogoutController\src\main\java
+C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\443694069.index
+\_84_BoardWeb_Spring_MVC_ViewResolver\src\main\java
 C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\419092971.index
 \_57_BoardWeb_Spring_Transaction\src\main\java
 C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1352350360.index
@@ -161,6 +165,8 @@ C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.cor
 \_64_BoardWeb_Model_Two_Method_Servlet_updateBoard\src\main\java
 C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2107306089.index
 \_56_BoardWeb_JdbcTemplate03_JdbcTemplate_bean\src\main\java
+C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2314388747.index
+\_84_BoardWeb_Spring_MVC_ViewResolver\src\main\java
 C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\266318145.index
 \_32_BoardWeb_Business_Understand_AOP\src\main\java
 C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3746725613.index
