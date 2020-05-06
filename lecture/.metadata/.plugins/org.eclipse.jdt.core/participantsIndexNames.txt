@@ -33,8 +33,12 @@ C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.cor
 \_71_BoardWeb_MVC_Framework_UpdateBoardController\src\main\java
 C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3793520237.index
 \_68_BoardWeb_MVC_Framework_GetBoardListController\src\main\resources
+C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2899801319.index
+\a_101_BoardWeb_Spring_MVC_Annotation_SessionAttributes1\src\main\java
 C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3880358418.index
 \_50_BoardWeb_Business_Annotation_After_AOP18\src\main\java
+C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3365054157.index
+\a_101_BoardWeb_Spring_MVC_Annotation_SessionAttributes1\src\main\java
 C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2473921610.index
 \_59_BoardWeb_Model_Two\src\main\java
 C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1830904559.index
