@@ -1,3 +1,5 @@
 #Tomcat publish data
-#Wed May 06 14:38:14 KST 2020
+#Wed May 06 14:47:22 KST 2020
+org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\chris\\.m2\\repository\\org\\springframework\\spring-web\\5.2.5.RELEASE\\spring-web-5.2.5.RELEASE.jar=C\:\\Users\\chris\\Desktop\\\uC2A4\uD504\uB9C1\\util\\apache-tomcat-8.5.54-windows-x64\\apache-tomcat-8.5.54\\wtpwebapps\\_97_BoardWeb_Spring_MVC_Annotation_Controller_Return_Type\\WEB-INF\\lib\\spring-web-5.2.5.RELEASE.jar
 org.eclipse.jst.jee.server\:_80_BoardWeb_Spring_MVC_InsertBoardController=C\:\\Users\\chris\\Desktop\\\uC2A4\uD504\uB9C1\\util\\apache-tomcat-8.5.54-windows-x64\\apache-tomcat-8.5.54\\wtpwebapps\\_80_BoardWeb_Spring_MVC_InsertBoardController
+org.eclipse.jst.jee.server\:_97_BoardWeb_Spring_MVC_Annotation_Controller_Return_Type=C\:\\Users\\chris\\Desktop\\\uC2A4\uD504\uB9C1\\util\\apache-tomcat-8.5.54-windows-x64\\apache-tomcat-8.5.54\\wtpwebapps\\_97_BoardWeb_Spring_MVC_Annotation_Controller_Return_Type

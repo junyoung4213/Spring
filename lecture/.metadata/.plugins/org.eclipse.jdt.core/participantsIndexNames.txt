@@ -59,6 +59,8 @@ C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.cor
 \_54_BoardWeb_JdbcTemplate01_Properties\src\main\java
 C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1180603954.index
 \_85_BoardWeb_Spring_MVC_Annotation_InsertBoardController\src\main\java
+C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4179081032.index
+\_97_BoardWeb_Spring_MVC_Annotation_Controller_Return_Type\src\main\java
 C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\710962353.index
 \_58_BoardWeb_Model_One\src\main\java
 C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3870296105.index
@@ -103,6 +105,8 @@ C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.cor
 \_58_BoardWeb_Model_One\src\main\java
 C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3840978756.index
 \_61_BoardWeb_Model_Two_Method_Servlet\src\main\java
+C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3882216897.index
+\_97_BoardWeb_Spring_MVC_Annotation_Controller_Return_Type\src\main\java
 C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\711912489.index
 \_79_BoardWeb_Spring_MVC_GetBoardController\src\main\java
 C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\20077390.index
