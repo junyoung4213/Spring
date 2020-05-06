@@ -14,6 +14,7 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="C:\Users\chris\Desktop\스프링\lecture"/>
 			<item value="C:\Users\chris\Desktop\_80_BoardWeb_Spring_MVC_InsertBoardController"/>
 			<item value="C:\Users\chris\Desktop\_79_BoardWeb_Spring_MVC_GetBoardController"/>
 			<item value="C:\Users\chris\Desktop\_78_BoardWeb_Spring_MVC_GetBoardListController"/>
