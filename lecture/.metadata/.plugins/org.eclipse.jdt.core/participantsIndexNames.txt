@@ -181,6 +181,8 @@ C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.cor
 \_38_BoardWeb_Business_BeforeAdvice_AOP06\src\main\java
 C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3367515279.index
 \_90_BoardWeb_Spring_MVC_Annotation_DeleteBoardController\src\main\java
+C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1585197497.index
+\a_106_BoardWeb_Spring_MVC_ExceptionView\src\main\java
 C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2986624543.index
 \a_102_BoardWeb_Spring_MVC_BoardService\src\main\java
 C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3650845233.index
@@ -255,6 +257,8 @@ C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.cor
 \_87_BoardWeb_Spring_MVC_Annotation_GetBoardListController\src\main\java
 C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\719030716.index
 \_64_BoardWeb_Model_Two_Method_Servlet_updateBoard\src\main\java
+C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\447340530.index
+\a_106_BoardWeb_Spring_MVC_ExceptionView\src\main\java
 C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\307284779.index
 \_62_BoardWeb_Model_Two_Method_Servlet_getBoard\src\main\java
 C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\783058839.index
