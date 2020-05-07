@@ -7022,3 +7022,8 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY org.eclipse.wst.server.core 4 0 2020-05-07 12:30:00.305
 !MESSAGE Could not delete C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\a_105_BoardWeb_Spring_MVC_FileUpload. May be locked by another process.
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2020-05-07 12:59:37.559
+!MESSAGE Could not publish server configuration for Tomcat v8.5 Server at localhost.
+!SUBENTRY 1 org.eclipse.jst.server.tomcat.core 4 0 2020-05-07 12:59:37.559
+!MESSAGE Multiple Contexts have a path of "/BoardWeb".

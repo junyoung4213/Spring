@@ -219,6 +219,8 @@ C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.cor
 \_79_BoardWeb_Spring_MVC_GetBoardController\src\main\java
 C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3525755945.index
 \_53_BoardWeb_JdbcTemplate00_jar_download\src\main\java
+C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\676894335.index
+\a_107_BoardWeb_Spring_MVC_Annotation_ExceptionView\src\main\java
 C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3912974492.index
 \a_103_BoardWeb_Spring_MVC_BoardService_Two_Layered_Architecture\src\main\java
 C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2941162506.index
@@ -299,6 +301,10 @@ C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.cor
 \_66_BoardWeb_Model_Two_Method_Servlet_logout\src\main\java
 C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1069917379.index
 \a_105_BoardWeb_Spring_MVC_FileUpload\src\main\java
+C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4076591440.index
+\a_107_BoardWeb_Spring_MVC_Annotation_ExceptionView\src\main\java
+C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\475413378.index
+\a_107_BoardWeb_Spring_MVC_Annotation_ExceptionView\src\main\java
 C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\578426439.index
 \_68_BoardWeb_MVC_Framework_GetBoardListController\src\main\java
 C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4004978429.index
