@@ -41,6 +41,8 @@ C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.cor
 \_50_BoardWeb_Business_Annotation_After_AOP18\src\main\java
 C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3365054157.index
 \a_101_BoardWeb_Spring_MVC_Annotation_SessionAttributes1\src\main\java
+C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1243255688.index
+\a_109_BoardWeb_Spring_MVC_MultiLanguage\src\main\java
 C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2473921610.index
 \_59_BoardWeb_Model_Two\src\main\java
 C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1830904559.index
@@ -123,6 +125,8 @@ C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.cor
 \_97_BoardWeb_Spring_MVC_Annotation_Controller_Return_Type\src\main\java
 C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\711912489.index
 \_79_BoardWeb_Spring_MVC_GetBoardController\src\main\java
+C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3290985231.index
+\a_108_BoardWeb_Spring_MVC_XML_ExceptionView\src\main\java
 C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\20077390.index
 \_77_BoardWeb_Spring_MVC_LoginController\src\main\java
 C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1942427859.index
@@ -225,8 +229,12 @@ C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.cor
 \a_103_BoardWeb_Spring_MVC_BoardService_Two_Layered_Architecture\src\main\java
 C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2941162506.index
 \_88_BoardWeb_Spring_MVC_Annotation_GetBoardController\src\main\java
+C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1548022793.index
+\a_108_BoardWeb_Spring_MVC_XML_ExceptionView\src\main\java
 C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3793020474.index
 \_69_BoardWeb_MVC_Framework_GetBoardController\src\main\java
+C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3552934477.index
+\a_109_BoardWeb_Spring_MVC_MultiLanguage\src\main\java
 C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2715214798.index
 \_95_BoardWeb_Spring_MVC_Annotation_Login_ModelAttribute\src\main\java
 C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\9567122.index
@@ -291,6 +299,8 @@ C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.cor
 \_80_BoardWeb_Spring_MVC_InsertBoardController\src\main\java
 C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2409790765.index
 \_36_BoardWeb_Business_Understand_AOP04\src\main\java
+C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\987571719.index
+\a_109_BoardWeb_Spring_MVC_MultiLanguage\src\main\java
 C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3571449225.index
 \_06_BoardWeb_Coupling_FactoryPattern_Register\src\main\java
 C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3627501303.index
@@ -305,6 +315,8 @@ C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.cor
 \a_107_BoardWeb_Spring_MVC_Annotation_ExceptionView\src\main\java
 C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\475413378.index
 \a_107_BoardWeb_Spring_MVC_Annotation_ExceptionView\src\main\java
+C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\436526336.index
+\a_108_BoardWeb_Spring_MVC_XML_ExceptionView\src\main\java
 C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\578426439.index
 \_68_BoardWeb_MVC_Framework_GetBoardListController\src\main\java
 C:\Users\chris\Desktop\스프링\lecture\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4004978429.index
