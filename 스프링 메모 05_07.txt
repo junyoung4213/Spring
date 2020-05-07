@@ -1,0 +1,10 @@
+enctype="multipart/form-data" // 이미지 파일 업로드할 때 form에 넣어줘야할 속성
+
+
+MultipartFile // 파일을 업로드하기 위해 필요한 클래스
+// 스프링에 의해 만들어지는 것이기 때문에 빈에 등록해야함
+
+<상대 경로 파일 저장>
+String rootPath = session.getServletContext().getRealPath("/");
+String attachPath = "/WEB-INF/images/";
+uploadFile.transferTo(new File(rootPath + attachPath + fileName));

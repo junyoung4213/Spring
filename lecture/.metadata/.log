@@ -7014,3 +7014,8 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 !MESSAGE Could not publish server configuration for Tomcat v8.5 Server at localhost.
 !SUBENTRY 1 org.eclipse.jst.server.tomcat.core 4 0 2020-05-07 10:03:48.628
 !MESSAGE Multiple Contexts have a path of "/BoardWeb".
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2020-05-07 11:16:16.593
+!MESSAGE Could not publish server configuration for Tomcat v8.5 Server at localhost.
+!SUBENTRY 1 org.eclipse.jst.server.tomcat.core 4 0 2020-05-07 11:16:16.593
+!MESSAGE Multiple Contexts have a path of "/BoardWeb".
