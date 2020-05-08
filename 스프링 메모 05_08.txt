@@ -1,0 +1,15 @@
+/* 1) jackson라이브러리 등록
+ * 2) <mvc:annotation-driven> 객체 자동 json 컨버터 생성
+*  3) @ResponseBody 변환된 객체데이터가 Body포함 전달
+ * */
+
+@JsonIgnore를 써주면 해당 데이터는 제외하고 전달하게 된다.
+VO클래스의 get 메서드 위에 써주면 된다.
+
+@XmlAccessorType(XmlAccessType.FIELD) 를 VO 클래스 위에 써주고
+
+@XmlAttribute를 필드 변수 위에 써준다.
+
+@XmlTransient는 안보낸다는 뜻. 전달하지 않을 필드변수위에 써준다.
+
+javax.xml.bind.annotation.XmlAttribute;
