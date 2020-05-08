@@ -1,6 +1,5 @@
 INDEX VERSION 1.131+C:\Users\chris\Desktop\½ºÇÁ¸µ\lecture\.metadata\.plugins\org.eclipse.jdt.core
-2765238439.index
-2593436171.index
-4227806043.index
 158326971.index
-1657092204.index
+2593436171.index
+2765238439.index
+4227806043.index

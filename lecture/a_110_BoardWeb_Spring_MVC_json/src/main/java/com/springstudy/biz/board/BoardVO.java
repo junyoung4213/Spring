@@ -1,12 +1,20 @@
 package com.springstudy.biz.board;
 
-import java.sql.Date;
+import java.util.Date;
+
+import javax.xml.bind.annotation.XmlAccessType;
+import javax.xml.bind.annotation.XmlAccessorType;
+import javax.xml.bind.annotation.XmlAttribute;
+import javax.xml.bind.annotation.XmlTransient;
 
 import org.springframework.web.multipart.MultipartFile;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
+
+@XmlAccessorType(XmlAccessType.FIELD)
 public class BoardVO {
+	@XmlAttribute
 	private int seq;
 	private String title;
 	private String writer;
@@ -14,10 +22,13 @@ public class BoardVO {
 	private Date regDate;
 	private int cnt;
 	// 클라이언트로부터 검색 매개변수를 받기 위한 필드
+	@XmlTransient
 	private String searchCondition;
+	@XmlTransient
 	private String searchKeyword;
 	// 파일을 업로드하기 위한 필드
 	// 이 객체는 업로드한 파일에 대한 모든 정보가 들어있다
+	@XmlTransient
 	private MultipartFile uploadFile;
 
 	public int getSeq() {

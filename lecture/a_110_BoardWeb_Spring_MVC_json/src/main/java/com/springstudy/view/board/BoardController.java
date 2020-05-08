@@ -13,6 +13,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.SessionAttributes;
 
+import com.springstudy.biz.board.BoardListVO;
 import com.springstudy.biz.board.BoardService;
 import com.springstudy.biz.board.BoardVO;
 
@@ -50,10 +51,10 @@ public class BoardController {
 	public String insertBoard(BoardVO vo) throws IllegalStateException, IOException {
 		System.out.println("글 등록 처리");
 		System.out.println(vo.toString());
-		
+
 		// 파일 업로드 처리
 		boardService.uploadBoard(vo);
-		
+
 		// DB에 저장
 		boardService.insertBoard(vo);
 		return "getBoardList.do";
@@ -92,29 +93,39 @@ public class BoardController {
 	@RequestMapping(value = "/getBoardList.do")
 	public String getBoardList(BoardVO vo, Model model) {
 		System.out.println("글 목록 검색 처리");
-		
+
 		// null check
-		if(vo.getSearchCondition()==null)
+		if (vo.getSearchCondition() == null)
 			vo.setSearchCondition("title");
-		if(vo.getSearchKeyword()==null)
+		if (vo.getSearchKeyword() == null)
 			vo.setSearchKeyword("");
-		
+
 		List<BoardVO> boardList = boardService.getBoardList(vo);
 		model.addAttribute("boardList", boardList);
 		return "getBoardList.jsp";
 	}
-	
-	
-	/* 1) jackson라이브러리 등록
-	 * 2) <mvc:annotation-driven> 객체 자동 json 컨버터 생성
+
+	/*
+	 * 1) jackson라이브러리 등록 2) <mvc:annotation-driven> 객체 자동 json 컨버터 생성
 	 * 3) @ResponseBody 변환된 객체데이터가 Body포함 전달
-	 * */
-	@RequestMapping(value="/dataTransform.do")
+	 */
+	@RequestMapping(value = "/dataTransform.do")
 	@ResponseBody
-	public List<BoardVO> dataTransform(BoardVO vo){
+	public List<BoardVO> dataTransform(BoardVO vo) {
 		vo.setSearchCondition("title");
 		vo.setSearchKeyword("");
 		List<BoardVO> boardList = boardService.getBoardList(vo);
 		return boardList;
+	}
+
+	@RequestMapping(value = "/xmlDataTransform.do")
+	@ResponseBody
+	public BoardListVO xmldataTransform(BoardVO vo) {
+		vo.setSearchCondition("title");
+		vo.setSearchKeyword("");
+		List<BoardVO> boardList = boardService.getBoardList(vo);
+		BoardListVO boardListVO = new BoardListVO();
+		boardListVO.setBoardList(boardList);
+		return boardListVO;
 	}
 }

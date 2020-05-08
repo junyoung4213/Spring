@@ -2,6 +2,7 @@
     pageEncoding="UTF-8"%>
 <%@taglib uri="http://java.sun.com/jstl/core_rt" prefix="c" %>
 <%@ taglib uri="http://www.springframework.org/tags" prefix="spring" %>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt" %>
 
 <!DOCTYPE html>
 <html>
@@ -44,6 +45,9 @@
 				<th bgcolor="orange" width="150">
 					<spring:message code="message.board.list.table.head.regDate"/>
 				</th>
+				<th bgcolor="orange" width="150">
+					<spring:message code="message.board.list.table.head.regDate"/>
+				</th>
 				<th bgcolor="orange" width="100">
 					<spring:message code="message.board.list.table.head.cnt"/>
 				</th>
@@ -59,6 +63,7 @@
 					</td>
 					<td>${board.writer }</td>
 					<td>${board.regDate }</td>
+					<td><fmt:formatDate value="${board.regDate}" pattern="yyyy-MM-dd"/></td>
 					<td>${board.cnt }</td>
 				</tr>
 			</c:forEach>
