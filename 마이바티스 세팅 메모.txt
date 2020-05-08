@@ -1,0 +1,27 @@
+/* 1) jackson라이브러리 등록
+ * 2) <mvc:annotation-driven> 객체 자동 json 컨버터 생성
+*  3) @ResponseBody 변환된 객체데이터가 Body포함 전달
+ * */
+
+@JsonIgnore를 써주면 해당 데이터는 제외하고 전달하게 된다.
+VO클래스의 get 메서드 위에 써주면 된다.
+
+@XmlAccessorType(XmlAccessType.FIELD) 를 VO 클래스 위에 써주고
+
+@XmlAttribute를 필드 변수 위에 써준다.
+
+@XmlTransient는 안보낸다는 뜻. 전달하지 않을 필드변수위에 써준다.
+
+javax.xml.bind.annotation.XmlAttribute;
+
+1. eclipse marketplace에서 java orm plugin 설치.
+2. 스프링 레거시 프로젝트 생성(mvc 선택)
+3. jre 버전 1.8로 변경
+4. pom.xml에서 dependency 추가 ( h2 db, mybatis, ibatis)
+5. new - other - Java ORM Plugin - Mybatis Mapper XML 생성
+6. 클래스패스로 위치를 옮겨주는게 좋음(src/main/resources 디렉토리밑에)
+7. xml을 수정한다 (쿼리문)
+8. new - other - Java ORM Plugin - mybatis Configuration XML 생성
+9. db.properties와 xml 파일이 생성되는데 마찬가지로 resources 폴더로 옮긴다.
+10. db.properties에서 DB 드라이버, url, username, password를 셋팅한다.
+11. SqlSessionFactoryBean 셋팅한다.
