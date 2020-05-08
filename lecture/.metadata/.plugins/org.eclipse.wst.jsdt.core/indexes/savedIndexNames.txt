@@ -1,20 +1,8 @@
 INDEX VERSION 1.4+C:\Users\chris\Desktop\½ºÇÁ¸µ\lecture\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
-987571719.index
-1974333180.index
-3182448437.index
-447340530.index
-1069917379.index
-475413378.index
-436526336.index
-3552934477.index
-1243255688.index
-3290985231.index
-2980055436.index
-4076591440.index
-676894335.index
 4251643682.index
-953383128.index
-1585197497.index
-3608758673.index
-1548022793.index
-1195388963.index
+3792693561.index
+1332498962.index
+1146121182.index
+2528799477.index
+1243255688.index
+2543141233.index
