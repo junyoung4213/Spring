@@ -1,0 +1,60 @@
+<JPA 셋팅>
+
+1. jpa 라이브러리 설치
+2. JPA Entity 생성 -> META-INF/persistence.xml에 등록됨.
+
+/*
+ * @Entity : 엔티티 클래스, 테이블과 매핑된다
+ * 			   클래스 명 = 테이블 명
+ * @Table  : 클래스 명과 다른 테이블을 매핑시킬 수 있다.
+ * @Id 	   : Primary Key, 무조건 있어야 한다
+ * @GeneratedValue : @Id가 선언된 필드에 자동으로 생성하여 할당할 때, 
+ * 					 h2는 시퀀스를 사용
+ * @Temporal : 날짜 타입 변수에 선언하여 날짜 타입을 매핑할 때
+ * 			   DATE, TIME, TIMESTAMP중 하나 선택
+ * @Column : 필드와 컬럼명이 다를 때,
+ * 			   제약조건 설정할 때
+*/
+
+<persistence.xml>
+
+<persistence-unit name="a_116_JPAProject">
+	<class>com.springstudy.biz.board.Board</class>
+	<properties>
+		<!-- 필수 속성 -->
+		<property name="javax.persistence.jdbc.driver" value="org.h2.Driver"/>
+		<property name="javax.persistence.jdbc.user" value="sa"/>
+		<property name="javax.persistence.jdbc.password" value=""/>
+		<property name="javax.persistence.jdbc.url" value="jdbc:h2:tcp://localhost/~/test"/>
+		<property name="hibernate.dialect" value="org.hibernate.dialect.H2Dialect"/>
+			
+		<!-- 옵션 -->
+		<property name="hibernate.show_sql" value="true"/>
+		<property name="hibernate.format_sql" value="true"/>
+		<property name="hibernate.use_sql_comments" value="false"/>
+		<property name="hibernate.id.new_generator_mappings" value="true"/>
+		<property name="hibernate.hbm2ddl.auto" value="create"/>
+			
+	</properties>
+</persistence-unit>
+
+
+<!--  
+hibernate.show_sql 	- 생성된 SQL을 콘솔에 출력해라
+hibernate.format_sql 	- SQL출력할 때 일정한 포맷으로 출력 
+hibernate.use_sql_comments 	- SQL에 포함된 주석도 출력
+hibernate.id.new_generator_mappings  - PK, 자동생성
+hibernate.hbm2ddl.auto - DDL(CREATE, ALTER, DROP)을 자동으로 처리할 지 지정
+
+- create 		: 실행시 테이블 삭제 후 테이블 생성
+- create-drop   : 실행시 테이블 생성 후 종료시 테이블 삭제
+- update 		: 기존 테이블 사용
+-->
+
+/* EntityManager가 제공하는 CRUD 메서드
+ * 1) persist(Object entity) : INSERT
+ * 2) merge(Object entity) : UPDATE
+ * 3) remove(Object entity) : DELETE
+ * 4) find(Class<T> entityClass, Object primaryKey) : SELECT ONE(1개 검색)
+ * 5) createQuery(String qlString, class<T> resultClass) : SELECT LIST(JPQL에 해당하는 목록 검색)
+*/
